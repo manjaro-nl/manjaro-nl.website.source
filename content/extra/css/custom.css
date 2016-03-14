@@ -1,0 +1,95 @@
+.green-stripe {
+    background: #2ECC71;
+    height: 12.5px;
+}
+
+.navbar-brand small {
+    display: block;
+    font-size: 12px;
+    padding-left: 5px
+}
+
+.navbar-toggle {
+    top: 10px;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+      padding-top: 20px;
+    }
+
+    .navbar-nav a {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+}
+.navbar-header {
+    min-height: 80px
+}
+
+.well-sm {
+    padding: 4px;
+}
+
+.list-group-item  {
+    padding: 10px 15px;
+}
+
+.col-sm-9 {
+    padding-top: 15px
+}
+
+ /*Inline-code make-up*/
+ figure.code figcaption {
+    text-align: center;
+    font-size: 13px;
+    line-height: 2.5em;
+    text-shadow: 0px 0.5px 0px #CBCCCC;
+    color: lightgrey;
+    font-weight: normal;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    font-family: "Helvetica Neue",Arial,"Lucida Grande","Lucida Sans Unicode",Lucida,sans-serif;
+    background: #303030 none repeat scroll 0% 0%;
+
+}
+figure.code figcaption {
+    position: relative;
+    margin-bottom: 0.25em;
+}
+
+figure.code figcaption a {
+    position: absolute;
+    right: 0.8em;
+    text-decoration: none;
+    color: lightgrey !important;
+    z-index: 1;
+    font-size: 13px;
+    text-shadow: 0px 0.5px 0px #CBCCCC;
+}
+
+figure.code figcaption a:hover {
+    color: white;
+}
+
+/*Smooth scrolling*/
+.btn-scroll-to-top {
+    background-color: transparent;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    padding: 5px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-scroll-to-top:hover {
+    text-decoration: none;
+}
+
+.btn-scroll-to-top:active,.btn-scroll-to-top:focus {
+outline: none;
+color: #36BF5D;
+}

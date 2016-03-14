@@ -1,0 +1,37 @@
+
+{% extends "base.html" %}
+
+{% block title %} Events list - {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<h2 id="event-list">Evenementen</h2>
+<hr>
+    {% if events_list %}
+    <ul class="post-list">
+    {% for evstart, evend, event in events_list %}
+      <li>
+        <p>
+          <a href="{{ SITEURL }}">
+            <b>{{event['title']}}</b>
+          </a>
+        </p>
+        <p>
+        {% if evstart.date() == evend.date() %}
+        Van {{evstart}} tot {{evend.time()}}
+        {% else %}
+        Van {{evstart}} tot {{evend}}
+        {% endif %}
+        </p>
+
+        {% if event.location %}
+        <p>Locatie: {{event.location}}</p>
+        {% endif %}
+
+        <p>{{event['summary']}}</p>
+
+      </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+{% endblock %}

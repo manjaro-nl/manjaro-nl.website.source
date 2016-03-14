@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %} Irc - {{ SITENAME }}{% endblock %}
+{% block content %}
+<iframe src="https://kiwiirc.com/client/irc.freenode.net/?nick=gast|?#manjaro-nl" style="border:0; width:100%; height:540px;"></iframe>
+<div class="tricks">
+  <h2 id="registreer-je-eigen-nickname">Registreer je eigen nickname</h2>
+  <p>Indien gewenst, kan je je eigen naam registreren op irc.</p>
+  <p>Verander je naam eerst in je nieuwe naam.</p>
+  <pre><code>/nick nieuwenaam</code></pre>
+  <p>Registreer je nieuwe naam.</p>
+  <pre><code>/msg NickServ REGISTER paswoord emailadres</code></pre>
+  <p>Een email met een bevestigingscode wordt gestuurd naar je emailadres. Bevestig je account met de toegestuurde code.</p>
+  <pre><code>/msg nickServ CONFIRM code</code></pre>
+  <h2 id="je-nickname-veiligstellen">Je nickname veiligstellen</h2>
+  <p>Indien je wil dat niemand anders jouw nickname gebruikt, doe dan:</p>
+  <pre><code>/msg NickServ SET ENFORCE ON</code></pre>
+  <p>Nu kan niemand je nickname misbruiken. Kijk na of je account goed geconfigureerd is:</p>
+  <pre><code>/msg NickServ IDENTIFY nickname paswoord</code></pre>
+  <h2 id="paswoord-vergeten">Paswoord vergeten?</h2>
+  <p>Indien je je paswoord vergeten bent, wordt een nieuwe sleutel naar je email gestuurd met:</p>
+  <pre><code>/msg NickServ SENDPASS nickname</code></pre>
+  <p>Uiteindelijk verander je paswoord.</p>
+  <pre><code>/msg NickServ SETPASS nickname sleutel paswoord</code></pre>
+  <h2 id="tips-tricks">Tips en Tricks</h2>
+  <p>Verberg je emailadres voor andere gebruikers:</p>
+  <pre><code>/msg NickServ SET HIDEMAIL ON</code></pre>
+  <p>Indien door internetproblemen de server denkt dat je nog steeds verbonden bent, kan je de sessie met je nickname geforceerd afsluiten: </p>
+  <pre><code>/msg NickServ GHOST nickname paswoord</code></pre>
+</div>
+{% endblock %}
