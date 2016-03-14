@@ -19,7 +19,6 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_RETENTION = ('.git','robots.txt')
 # Following items are often useful when publishing
-ED_ALL_ATOM = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
