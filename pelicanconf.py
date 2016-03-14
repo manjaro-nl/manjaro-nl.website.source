@@ -18,7 +18,7 @@ MENUITEMS = (('Forum','http://www.manjaro-nl.org/smfnl/index.php'),('Download','
 CUSTOM_CSS = 'theme/css/custom.css'
 
 DELETE_OUTPUT_DIRECTORY = True
-OUTPUT_RETENTION = ('robots.txt')
+OUTPUT_RETENTION = ('.git','robots.txt')
 
 STATIC_PATHS = ['code','images','extra']
 EXTRA_PATH_METADATA = {
@@ -27,6 +27,9 @@ EXTRA_PATH_METADATA = {
     'extra/css/magnific-popup.css': {'path': 'theme/css/magnific-popup.css'},
     'extra/js/jquery.magnific-popup.js': {'path': 'theme/js/jquery.magnific-popup.js'},
     'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/css/contact-form.css': {'path': 'theme/css/contact-form.css'},
+    'extra/js/classie.js': {'path': 'theme/js/classie.js'},
+    'extra/js/contact-form.js': {'path': 'theme/js/contact-form.js'},
     }
 
 PLUGIN_PATHS = ['/home/filip/Projecten/manjarosite/plugins']

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %} Contact - {{ SITENAME }}{% endblock %}
+{% block content %}
+<html>
+  <head>
+      <link rel="stylesheet" href="{{ SITEURL }}/theme/css/contact-form.css" type="text/css"/>
+      <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/classie.js"></script>
+      <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/contact-form.js"></script>
+
+  </head>
+
+  <body>
+    <div class="contact">
+      <h2 id="contact-form">Neem contact op met ons!</h2>
+      <hr>
+      <h4>Voor al uw vragen en suggesties.</h4>
+      <hr>
+      <form class="form" id="contactform" action="xxx" method="POST">
+        <fieldset class="field">
+        <input class="input" type="text" name="name" placeholder="Naam" required>
+        <label class="label" for="name"><span class="label-content">Jouw naam</span></label>
+      </fieldset>
+      <fieldset class="field">
+        <input class="input" type="email" name="_replyto" placeholder="email@email.com" required>
+        <label class="label" for="_replyto"><span class="label-content">Emailadres</span></label>
+      </fieldset>
+      <fieldset class="field">
+        <textarea class="input" name="message" rows="10" placeholder="Bericht" required></textarea>
+        <label class="label" for="message"><span class="label-content">Bericht</span></label>
+      </fieldset>
+      <input class="hidden" type="text" name="_gotcha" style="display:none">
+      <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
+      <fieldset class="field">
+        <input class="button submit" type="submit" value="Verzenden">
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
+{% endblock %}

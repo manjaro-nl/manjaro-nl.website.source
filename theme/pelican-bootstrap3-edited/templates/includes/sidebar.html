@@ -4,6 +4,11 @@
 
 <section class="well well-sm">
     <ul class="list-group list-group-flush">
+      {% if 'tipue_search' in PLUGINS %}
+      <span><form class="navbar-search" action="/search">
+      <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+      </form></span>
+      {% endif %}
         {% if DISPLAY_RECENT_POSTS_ON_SIDEBAR %}
             {% if RECENT_POST_COUNT is not defined %}
                 {% set RECENT_POST_COUNT = 5 %}
