@@ -80,7 +80,7 @@ SOCIAL =    (('reddit', 'http://www.reddit.com/r/ManjaroLinux'),
             ('facebook', 'https://www.facebook.com/ManjaroLinux'),
             ('google+', 'https://plus.google.com/communities/107339606748051600367')
             )
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 ARTICLE_SAVE_AS = ('posts/{date:%Y}/{date:%m}/{date:%d}/{slug}.html')
