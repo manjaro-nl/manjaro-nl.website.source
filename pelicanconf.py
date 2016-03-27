@@ -27,17 +27,11 @@ EXTRA_PATH_METADATA = {
     'extra/css/magnific-popup.css': {'path': 'theme/css/magnific-popup.css'},
     'extra/js/jquery.magnific-popup.js': {'path': 'theme/js/jquery.magnific-popup.js'},
     'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/css/contact-form.css': {'path': 'theme/css/contact-form.css'},
-    'extra/js/classie.js': {'path': 'theme/js/classie.js'},
-    'extra/js/contact-form.js': {'path': 'theme/js/contact-form.js'},
     }
 
 PLUGIN_PATHS = ['/home/filip/Projecten/manjarosite/plugins']
-PLUGINS = ['photos','neighbors','series','tag_cloud','pin_to_top', 'liquid_tags.youtube','liquid_tags.include_code','summary','events','tipue_search']
+PLUGINS = ['photos','neighbors','series','tag_cloud','pin_to_top', 'liquid_tags.youtube','liquid_tags.include_code','summary','tipue_search']
 
-PLUGIN_EVENTS = {
-    'ics_fname': 'calendar.ics'
-    }
 
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
@@ -54,7 +48,7 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_TAGS_INLINE = True
 
 #Photos plugin#
-PHOTO_LIBRARY = "~/Projecten/manjaroblog/content/photos/"
+PHOTO_LIBRARY = "~/Projecten/manjarosite/content/photos/"
 PHOTO_GALLERY = (1024, 768, 80)
 PHOTO_ARTICLE = ( 760, 506, 80)
 PHOTO_THUMB = (192, 144, 60)

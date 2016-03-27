@@ -3,7 +3,6 @@ Date: 2016-01-01
 Category: Nieuws
 Lang: nl
 Slug: welcome
-Pin: true
 Status: published
 
 <img src="{filename}/images/Tux_manjaro.png" width="100">
