@@ -7,14 +7,14 @@
                 <p>Een informatieve Nederlandstalige gemeenschap voor het gebruik en ondersteuning van Manjaro linux.</p>
                 <p>Neem een kijkje op het Nederlandstalig <a href="http://www.manjaro-nl.org/smfnl/index.php"><u>forum</u></a> en registreer je! Of kom gezellig meechatten op irc.freenode.net <a href="{{ SITEURL }}/pages/irc.html"><u>#manjaro-nl</u></a></p>
                 <p>
-                  <a class="btn btn-default" href="{{ SITEURL }}/posts/2016/01/01/welcome.html">Ontdek Manjaro &raquo;</a>
+                  <a class="btn btn-default" href="{{ SITEURL }}/posts/2016/01/01/dit-is-manjaro-linux.html">Ontdek Manjaro &raquo;</a>
                 </p>
            </div>
            <div class="col-sm-4">
              {% if articles %}
-             <h2>Evenementen</h2>
                  {% for article in (articles_page.object_list if articles_page else articles) %}
                   {% if article.pin %}
+                  <h2>Evenementen</h2>
                     <span>
                       <i class="fa fa-calendar"></i>
                       <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }}</time>

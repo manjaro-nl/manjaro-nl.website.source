@@ -85,7 +85,12 @@
                         {% include "includes/article_info.html" %}
                     </div>
                 </div>
-                {{ article.content }}
+                <div class="entry-content">
+                  {% if article.photo_image %}<img src="{{ SITEURL }}/{{ article.photo_image[1] }}" />
+                  {% endif %}
+                  {{ article.content }}
+                </div><!-- /.entry-content -->
+
             </div>
             {% if article.photo_gallery %}
             <div class="gallery">
