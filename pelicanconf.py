@@ -71,7 +71,7 @@ LINKS = (
 
 # Social widget
 SOCIAL =    (('reddit', 'http://www.reddit.com/r/ManjaroLinux'),
-            ('facebook', 'https://www.facebook.com/ManjaroLinux'),
+            ('facebook', 'https://www.facebook.com/manjaronl/'),
             ('google+', 'https://plus.google.com/communities/107339606748051600367')
             )
 DEFAULT_PAGINATION = 5
