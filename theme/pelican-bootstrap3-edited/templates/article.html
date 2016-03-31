@@ -88,6 +88,11 @@
                 <div class="entry-content">
                   {% if article.photo_image %}<img src="{{ SITEURL }}/{{ article.photo_image[1] }}" />
                   {% endif %}
+                  {% if article.toc %}
+                    <nav class="toc">
+                      {{ article.toc }}
+                    </nav>
+                  {% endif %}
                   {{ article.content }}
                 </div><!-- /.entry-content -->
 

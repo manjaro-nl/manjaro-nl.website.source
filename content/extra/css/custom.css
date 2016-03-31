@@ -93,3 +93,22 @@ figure.code figcaption a:hover {
 outline: none;
 color: #36BF5D;
 }
+
+/*Community gedeelte*/
+.community-item {
+    margin-bottom: 25px;
+}
+.favicon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.favspace1 {
+  margin-right: 0.4em;
+}
+.favspace2 {
+  margin-right: 0.25em;
+}
+.fora,.irc,.team {
+  list-style-type: none;
+  margin: 1em 0 0 4em;
+}

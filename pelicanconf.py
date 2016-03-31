@@ -30,8 +30,9 @@ EXTRA_PATH_METADATA = {
     }
 
 PLUGIN_PATHS = ['/home/filip/Projecten/manjarosite/plugins']
-PLUGINS = ['photos','neighbors','series','tag_cloud','pin_to_top', 'liquid_tags.youtube','liquid_tags.include_code','summary','tipue_search']
+PLUGINS = ['photos','neighbors','series','tag_cloud','pin_to_top', 'liquid_tags.youtube','liquid_tags.include_code','summary','tipue_search','extract_toc']
 
+MD_EXTENSIONS = (['toc'])
 
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
