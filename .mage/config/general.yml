@@ -1,0 +1,6 @@
+name: manjaro-nl-site-source
+email: flipper@tutanota.com
+notifications: 'false'
+logging: 'true'
+maxlogs: '30'
+ssh_needs_tty: 'false'

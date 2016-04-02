@@ -1,0 +1,21 @@
+deployment:
+    user: vd4493
+    from: ./
+    to: /var/web/vd3548/deploy
+    excludes:
+        - '.mage/*'
+        - 'app/cache/*'
+        - 'web/bundles/*'
+    strategy: rsync
+releases:
+    enabled: true
+    max: 10
+    symlink: current
+    directory: releases
+hosts:
+    - dev1.novation.be
+tasks:
+    pre-deploy: null
+    on-deploy: null
+    post-release: null
+    post-deploy: null
