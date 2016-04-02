@@ -1,7 +1,7 @@
 deployment:
     user: vd4493
     from: ./
-    to: /var/web/vd3548/deploy
+    to: /var/web/vd4493/deploy
     excludes:
         - '.mage/*'
         - 'app/cache/*'
