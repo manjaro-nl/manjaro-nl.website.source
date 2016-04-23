@@ -29,7 +29,7 @@ EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     }
 
-PLUGIN_PATHS = ['/var/lib/jenkins/jobs/Manjaro-nl/workspace/plugins']
+PLUGIN_PATHS = ['plugins']
 PLUGINS = ['photos','neighbors','series','tag_cloud','pin_to_top', 'liquid_tags.youtube','liquid_tags.include_code','summary','tipue_search','extract_toc']
 
 MD_EXTENSIONS = (['toc'])
