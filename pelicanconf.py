@@ -29,8 +29,8 @@ EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     }
 
-PLUGIN_PATHS = ["plugins", "/var/web/vd4493/deploy/current//plugins"]
-PLUGINS = ['photos','neighbors','series','tag_cloud','pin_to_top', 'liquid_tags.youtube','liquid_tags.include_code','summary','tipue_search','extract_toc']
+PLUGIN_PATH = 'plugins'
+PLUGINS = ["neighbors", "series", "tag_cloud", "pin_to_top", "liquid_tags.youtube", "liquid_tags.include_code", "summary", "tipue_search", "extract_toc"]
 
 MD_EXTENSIONS = (['toc'])
 
