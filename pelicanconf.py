@@ -8,7 +8,7 @@ SITEURL = ''
 SITELOGO ='/images/manjaro-logo.png'
 SITELOGO_SIZE = '40px'
 
-THEME = '/home/filip/Projecten/manjarosite/theme/pelican-bootstrap3-edited/'
+THEME = '/var/lib/jenkins/jobs/Manjaro-nl/workspace/theme/pelican-bootstrap3-edited/'
 BOOTSTRAP_THEME = 'sandstone'
 PYGMENTS_STYLE = 'perldoc'
 
@@ -29,7 +29,7 @@ EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     }
 
-PLUGIN_PATHS = ['/home/filip/Projecten/manjarosite/plugins']
+PLUGIN_PATHS = ['/var/lib/jenkins/jobs/Manjaro-nl/workspace/plugins']
 PLUGINS = ['photos','neighbors','series','tag_cloud','pin_to_top', 'liquid_tags.youtube','liquid_tags.include_code','summary','tipue_search','extract_toc']
 
 MD_EXTENSIONS = (['toc'])
@@ -49,7 +49,7 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_TAGS_INLINE = True
 
 #Photos plugin#
-PHOTO_LIBRARY = "~/Projecten/manjarosite/content/photos/"
+PHOTO_LIBRARY = "/var/lib/jenkins/jobs/Manjaro-nl/workspace/content/photos/"
 PHOTO_GALLERY = (1024, 768, 80)
 PHOTO_ARTICLE = ( 760, 506, 80)
 PHOTO_THUMB = (192, 144, 60)
