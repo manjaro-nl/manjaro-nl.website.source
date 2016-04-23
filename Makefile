@@ -122,8 +122,8 @@ cf_upload: publish
 #	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 #	git push origin $(GITHUB_PAGES_BRANCH)
 
-github: publish
-	git add . && git commit -m "Generated, `date`" && git push -u origin master
-	cd $(OUTPUTDIR) && git add . && git commit -m "Generated, `date`" && git push -u origin master
+#github: publish
+#	git add . && git commit -m "Generated, `date`" && git push -u origin master
+#	cd $(OUTPUTDIR) && git add . && git commit -m "Generated, `date`" && git push -u origin master
 
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
