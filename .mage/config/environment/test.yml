@@ -17,7 +17,7 @@ hosts:
 tasks:
     pre-deploy: null
     on-deploy: null
-    post-release: 
+    post-release: null 
+    post-deploy: 
       - { level27-local-command: { name: 'pwd', workingdir: / } }
       - { level27-local-command: { name: 'make publish', workingdir: / } }
-    post-deploy: null
