@@ -8,7 +8,7 @@ SITEURL = ''
 SITELOGO ='/images/manjaro-logo.png'
 SITELOGO_SIZE = '40px'
 
-THEME = '/var/web/vd4493/deploy/current/theme/pelican-bootstrap3-edited/'
+THEME = 'theme/pelican-bootstrap3-edited/'
 BOOTSTRAP_THEME = 'sandstone'
 PYGMENTS_STYLE = 'perldoc'
 
@@ -49,7 +49,7 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_TAGS_INLINE = True
 
 #Photos plugin#
-PHOTO_LIBRARY = "/var/web/vd4493/deploy/current//content/photos/"
+PHOTO_LIBRARY = "content/photos/"
 PHOTO_GALLERY = (1024, 768, 80)
 PHOTO_ARTICLE = ( 760, 506, 80)
 PHOTO_THUMB = (192, 144, 60)
