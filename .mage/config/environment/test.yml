@@ -18,6 +18,6 @@ tasks:
     pre-deploy: null
     on-deploy: null
     post-release: 
-      - { level27-local-command: { name: 'make publish', workingdir: / } } 
+      - { level27-remote-command: { name: 'make publish', workingdir: / } } 
     post-deploy: null
 
