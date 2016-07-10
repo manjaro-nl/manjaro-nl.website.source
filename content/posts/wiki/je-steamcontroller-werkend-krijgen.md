@@ -5,9 +5,7 @@ Tags: steam
 Slug: je-steamcontroller-werkend-krijgen
 Status: published
 
-### Je Steamcontroller werkend krijgen
-
-Met de Steamsales achter de rug heb je misschien problemen gehad je Steamcontroller werkend te krijgen op Manjaro. Niet getreurd er is een eenvoudige fix:
+Met de Steamsales achter de rug heb je misschien problemen gehad je Steamcontroller werkend te krijgen op Manjaro. Niet getreurd er is een eenvoudige fix.
 
 <!-- PELICAN_END_SUMMARY -->
 
@@ -18,5 +16,7 @@ hernoem
 naar
 
 `/usr/lib/udev/rules.d/70-steam-controller-permission.rules`
+
+
 
 [bron](https://bugs.archlinux.org/task/47330#comment142957)
