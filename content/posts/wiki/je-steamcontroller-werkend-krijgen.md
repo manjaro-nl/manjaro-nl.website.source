@@ -3,7 +3,7 @@ Date: 2016-07-10 18:56
 Category: wiki
 Tags: steam
 Slug: je-steamcontroller-werkend-krijgen
-Summary:
+Summary: Met de steamsales achter de rug heb je misschien problemen gehad je Steamcontroller werkend te krijgen op Manjaro. Niet getreurd er is een eenvoudige fix:
 Status: published
 
 ### Je Steamcontroller werkend krijgen
