@@ -30,7 +30,7 @@ EXTRA_PATH_METADATA = {
     }
 
 PLUGIN_PATH = 'plugins'
-PLUGINS = ["neighbors", "series", "tag_cloud", "pin_to_top", "liquid_tags.youtube", "liquid_tags.include_code", "summary", "tipue_search", "extract_toc"]
+PLUGINS = ["neighbors", "series", "tag_cloud", "pin_to_top", "liquid_tags.youtube", "liquid_tags.include_code", "summary", "tipue_search", "extract_toc", "photos"]
 
 MD_EXTENSIONS = (['toc'])
 
