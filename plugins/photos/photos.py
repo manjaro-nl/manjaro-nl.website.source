@@ -273,4 +273,4 @@ def register():
     signals.content_object_init.connect(detect_content)
     signals.article_generator_finalized.connect(detect_gallery)
     signals.article_generator_finalized.connect(detect_image)
-    signals.article_writer_finalized.connect(resize_photos)
+#    signals.article_writer_finalized.connect(resize_photos)
