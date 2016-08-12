@@ -54,6 +54,8 @@ PHOTO_GALLERY = (1024, 768, 80)
 PHOTO_ARTICLE = ( 760, 506, 80)
 PHOTO_THUMB = (192, 144, 60)
 
+PHOTO_WATERMARK = True
+PHOTO_WATERMARK_TEXT = 'manjaro-nl'
 #Tipue Search plugin#
 SEARCH_URL = '/search.html'
 
@@ -77,9 +79,9 @@ SOCIAL =    (('reddit', 'http://www.reddit.com/r/ManjaroLinux'),
             )
 DEFAULT_PAGINATION = 5
 
-ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
-ARTICLE_SAVE_AS = ('posts/{date:%Y}/{date:%m}/{date:%d}/{slug}.html')
-ARTICLE_LANG_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}-{lang}.html'
-ARTICLE_LANG_SAVE_AS = ('posts/{date:%Y}/{date:%m}/{date:%d}/{slug}-{lang}.html')
+ARTICLE_URL = 'posts/{slug}.html'
+ARTICLE_SAVE_AS = ('posts/{slug}.html')
+ARTICLE_LANG_URL = 'posts/{slug}-{lang}.html'
+ARTICLE_LANG_SAVE_AS = ('posts/{slug}-{lang}.html')
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
